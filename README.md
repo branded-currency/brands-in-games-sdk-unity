@@ -1,4 +1,10 @@
+<a href="https://gcowmarketplace.io/">
+<img width="100" alt="GCOW Marketplace Logo" src="https://gcowmarketplace.io/images/logo_marketplace_dark.svg">
+</a>
+
 # GCOW Marketplace Unity SDK
+
+<img width="270" alt="GCOW Marketplace" src="https://user-images.githubusercontent.com/5966172/228763800-1a8c9429-1f95-41f8-bcda-57209d6738d5.gif">
 
 ## Description
 This SDK is for including our webview for Mac/Android/iOS applications based on Unity.
@@ -31,5 +37,5 @@ This SDK is for including our webview for Mac/Android/iOS applications based on 
 9. In the Inspector, choose "Add component" → "Scripts" and choose "Web View Handler."
 <img width="284" alt="9" src="https://user-images.githubusercontent.com/5966172/228291817-39df67d5-5468-4bc9-9d07-2a146642bffc.png">
 
-10. Fill in the required parameters `Uid`, `Placement ID`, `Placement Secret` and save your changes.
+10. Fill in the required parameters `Uid`, `Placement ID`, `Placement Secret` and save your changes. You can find your placement ID and secret in your placement page on GCOW Marketplace portal. For UID any user identifier can be used or leave it empty.
 <img width="504" alt="10" src="https://user-images.githubusercontent.com/5966172/228291838-46d13152-646b-4b12-bffb-78596dc02c26.png">
