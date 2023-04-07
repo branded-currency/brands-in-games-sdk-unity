@@ -2,17 +2,36 @@
 <img width="100" alt="GCOW Marketplace Logo" src="https://gcowmarketplace.io/images/logo_marketplace_dark.svg">
 </a>
 
-# GCOW Marketplace Unity SDK
+# GCOW Marketplace Monetization SDK for Unity
+
+Driving Acquisition, Retention, and Monetization for Free-to-Play Mobile Games with the <a href="https://gcowmarketplace.io/">GCOW Marketplace</a>!
 
 <img width="270" alt="GCOW Marketplace" src="https://user-images.githubusercontent.com/5966172/228763800-1a8c9429-1f95-41f8-bcda-57209d6738d5.gif">
 
 ## Description
+Our Marketplace unlocks a new revenue stream for free-to-play mobile games. 
+Your players purchase digital gift cards from 400+ brands and merchants they know and love, 
+Amazon, Best Buy, Domino’s Pizza, Ulta Beauty, Fanatics, and more. 
+Our Marketplace allows players to earn instant free in-app currency toward the game they are playing, 
+allowing them to get back to enjoying your game and creating a revenue stream for publishers that can 
+earn them as much as $40 per engaged user per month.
+
 This SDK is for including our webview for Mac/Android/iOS applications based on Unity.
 
 ## Features
-- Displays a Gift Card Marketplace inside your Unity project.
+- Display our GCOW Marketplace inside your Unity mobile game or app.
 
 ## Quick guide
+
+### Account creation
+- Create a Sandbox Developer Account (www.test-gcowmarketplace.io)
+- Add new placement in GCOW Marketplace Developer Portal and copy the given credentials.
+- Import our unity package in your project
+- Customize the Marketplace with your desired branding and colors.
+- Test and move over to our Production Portal
+- If you need any support, click the Slack icon inside your GCOW Marketplace Developer Portal and we will assist you in our slack channel. 
+
+### SDK package import
 1. Download a zip archive with the asset and unzip it in a folder of your preference.
 2. Open your project on Unity.
 3. Go to "Assets" → "Import package" → "Custom package."
