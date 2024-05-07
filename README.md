@@ -1,5 +1,9 @@
 <a href="https://brandsingames.com/">
-<img width="300" alt="Brands In Games Marketplace" src="https://brandsingames.com/images/brandsingames-dark-logo.svg">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://brandsingames.com/images/brandsingames-light-logo.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://brandsingames.com/images/brandsingames-dark-logo.svg">
+    <img width="300" alt="Brands In Games Marketplace" src="https://brandsingames.com/images/brandsingames-dark-logo.svg">
+  </picture>
 </a>
 
 # Brands In Games Marketplace Monetization SDK for Unity
