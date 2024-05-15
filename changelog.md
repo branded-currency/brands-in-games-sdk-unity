@@ -1,3 +1,6 @@
+# 1.1.1
+- webview plugin update
+
 # 1.1.0
 - Brands In Games Marketplace rebranding
 
