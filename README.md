@@ -61,4 +61,8 @@ This SDK is for including our webview for Mac/Android/iOS applications based on 
 <img width="284" alt="9" src="https://user-images.githubusercontent.com/5966172/228291817-39df67d5-5468-4bc9-9d07-2a146642bffc.png">
 
 10. Fill in the required parameters `Uid`, `Placement ID`, `Placement Secret` and save your changes. You can find your placement ID and secret in your placement page on Brands In Games Marketplace portal. For UID any user identifier can be used or leave it empty.
-<img width="504" alt="10" src="https://user-images.githubusercontent.com/5966172/228291838-46d13152-646b-4b12-bffb-78596dc02c26.png">
+
+Set `Base Url` to: 
+- `https://app.brandsingames.com` for production
+- `https://app.test-brandsingames.com` for test
+<img width="615" alt="10" src="https://github.com/branded-currency/brands-in-games-sdk-unity/assets/5966172/15120a38-8656-4022-af2f-8ae204492fe1">
