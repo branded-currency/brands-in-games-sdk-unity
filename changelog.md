@@ -1,3 +1,7 @@
+# 1.1.2
+- missing WebViewPlugin file fix for android
+- sdk version info
+
 # 1.1.1
 - webview plugin update
 
