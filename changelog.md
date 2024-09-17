@@ -1,3 +1,6 @@
+# 1.2.0
+- sdk settigns
+
 # 1.1.3
 - fixed redirect to browser from stripe screen
 
