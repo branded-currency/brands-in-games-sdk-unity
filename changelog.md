@@ -1,3 +1,6 @@
+# 1.1.3
+- fixed redirect to browser from stripe screen
+
 # 1.1.2
 - missing WebViewPlugin file fix for android
 - sdk version info
