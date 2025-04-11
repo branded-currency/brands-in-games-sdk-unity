@@ -66,3 +66,18 @@ Set `Base Url` to:
 - `https://app.brandsingames.com` for production
 - `https://app.test-brandsingames.com` for test
 <img width="615" alt="10" src="https://github.com/branded-currency/brands-in-games-sdk-unity/assets/5966172/15120a38-8656-4022-af2f-8ae204492fe1">
+
+
+### SDK launching
+1. Create a new button by clicking "+", name it e.g. "ButtonOpenMarketplace" and select.
+<img width="425" src="https://github.com/user-attachments/assets/cf36fa1c-e58a-4b1b-8397-f338c817f45d">
+<img width="397" src="https://github.com/user-attachments/assets/496b6e83-3be5-42ff-8492-e6e039d688e8">
+
+2. Add On Click handler inside Inspector tab.
+<img width="580" src="https://github.com/user-attachments/assets/793be3c4-a505-49a4-9c61-c54c16c7d844">
+
+3. Select "Brands in Games Marketplace WebView" object on Scene tab inside opened window.
+<img width="577" src="https://github.com/user-attachments/assets/e606be65-9008-4750-840f-18e6daa5f93f">
+
+4. Select `WebViewHandler.Start` function as click event handler.
+<img width="578" src="https://github.com/user-attachments/assets/7089a94a-7160-4f6c-803f-28ec596b0fb1" />
