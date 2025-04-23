@@ -1,3 +1,6 @@
+# 1.2.1
+- placement key replaced with Client Key
+
 # 1.2.0
 - sdk settigns
 
