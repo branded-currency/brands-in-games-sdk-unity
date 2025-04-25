@@ -1,3 +1,7 @@
+# 1.2.2
+- debug logs enable flag
+- onOpened and onClosed events
+
 # 1.2.1
 - placement key replaced with Client Key
 

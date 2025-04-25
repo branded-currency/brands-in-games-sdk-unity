@@ -86,3 +86,60 @@ Set `Base Url` to:
 
 5. Since you added button, you may need to avoid script auto launching. For this uncheck your object script in Inspector.
 <img width="412" src="https://github.com/user-attachments/assets/4c403353-512d-41a8-8f46-27b14cd167fd" />
+
+
+### Events
+
+- `onOpened` fired when SDK webview opened, before any data loaded inside webview
+- `onClosed` fired after SDK webview closed by user
+
+<details>
+  <summary>How to create events handler</summary>
+
+  1. Create custom script e.g. `WebviewEventsHandler`
+  2. Add property for web view handler `public WebViewHandler webviewRef = null;`
+  3. Connect `Brands In Games WebView` to with webviewRef
+
+  <img width="478" alt="" src="https://github.com/user-attachments/assets/b203b17d-1f29-4f74-9cee-ee66235e86c0" />
+
+  <details>
+    <summary>Events handler example</summary>
+
+```c#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class WebviewEventsHandler : MonoBehaviour
+{
+    public WebViewHandler webviewRef = null;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        if (webviewRef) {
+            webviewRef.onOpened += myOnOpenedHandler;
+            webviewRef.onClosed += myOnClosedHandler;
+        }
+    }
+
+    void myOnOpenedHandler()
+    {
+        Debug.Log("Test onOpened");
+    }
+
+    void myOnClosedHandler()
+    {
+        Debug.Log("Test onClosed");
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
+```
+
+  </details>
+</details>
